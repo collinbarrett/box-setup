@@ -5,8 +5,8 @@
 //  - startingDirectory: to most commonly interacted with directory
 
 // Hidden:
-//  - MinGW-w64: Hoping to not use Git for Windows or its shell at all in favor of git in WSL.
-//  - Azure Cloud Shell: since I do not use it at all currently, but it is added by default.
+//  - MinGW-w64: hoping to not use Git for Windows or its shell at all in favor of git via WSL
+//  - Azure Cloud Shell: since I do not use it at all currently, but it is added by default
 
 {
   "$schema": "https://aka.ms/terminal-profiles-schema",
@@ -27,14 +27,14 @@
         "source": "Windows.Terminal.Wsl"
       },
       {
-        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-        "name": "Windows PowerShell",
-        "commandline": "powershell.exe"
-      },
-      {
         "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
         "name": "cmd",
         "commandline": "cmd.exe"
+      },
+      {
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+        "name": "Windows PowerShell",
+        "commandline": "powershell.exe"
       },
       {
         "commandline": "\"%PROGRAMFILES%\\Git\\bin\\bash.exe\" -i -l",
