@@ -2,20 +2,23 @@
 
 ## Clone box-setup
 
- - TBD
+ - `cd` to desired source code directory.
+ - `git clone https://github.com/collinbarrett/box-setup.git`
 
 ## Configure
 
-### Current Repo
+### Credential Helper
 
-To support pushing back to this repo.
+ - `git config --global credential.helper store`
+
+### User
+
+For current repo only:
 
  1. `git config user.name "Collin M. Barrett"`
  2. `git config user.email collinbarrett@users.noreply.github.com`
 
-### Global
-
-For personal computer, to globally configure git as GitHub profile.
+Or, globally:
 
  1. `git config --global user.name "Collin M. Barrett"`
  2. `git config --global user.email collinbarrett@users.noreply.github.com`
