@@ -2,7 +2,7 @@
 
 ## Enable WSL
 
-[Powershell (Administrator)]:
+Powershell (Administrator):
  1. `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
  2. Follow the prompt to reboot the computer.
 
@@ -10,7 +10,7 @@ via [MS Docs](https://docs.microsoft.com/en-us/windows/wsl/install-win10#install
 
 ## Download & Install Ubuntu 18.04 distro
 
-[Powershell (Administrator)]:
+Powershell (Administrator):
  1. `$ProgressPreference = 'SilentlyContinue'`
  2. `Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1804 -OutFile Ubuntu.appx -UseBasicParsing`
  3. `Add-AppxPackage .\Ubuntu.appx`
