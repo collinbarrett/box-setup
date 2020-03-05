@@ -1,6 +1,6 @@
 # git
 
-## Clone box-setup
+## Clone `box-setup`
 
  - `cd` to desired source code directory.
  - `git clone https://github.com/collinbarrett/box-setup.git`
