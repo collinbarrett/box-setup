@@ -3,10 +3,6 @@
 ## TODO
  - Port over settings from pre-existing [gist](https://gist.github.com/collinbarrett/04b9e548e7a5b1f27f708874fe3ae5f4).
 
-## Install
-
- - TBD (via `choco`)
-
 ## Configure
 
  - Open Windows Terminal.
