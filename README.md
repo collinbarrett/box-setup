@@ -8,5 +8,5 @@ Inspired by [gpspake/dotfiles](https://github.com/gpspake/dotfiles)
 
 See README in each directory.
 
-1. [wsl](https://github.com/collinbarrett/box-setup/tree/master/wsl)
-2. [windows-terminal](https://github.com/collinbarrett/box-setup/tree/master/windows-terminal)
+ 1. [wsl](https://github.com/collinbarrett/box-setup/tree/master/wsl)
+ 2. [windows-terminal](https://github.com/collinbarrett/box-setup/tree/master/windows-terminal)
