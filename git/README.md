@@ -8,11 +8,6 @@ cmd:
 
 ## Configure
 
-### Credential Helper
-
-cmd:
- - `git config --global credential.helper store`
-
 ### User
 
 #### Current Repo Only:
@@ -29,3 +24,10 @@ cmd:
  2. `git config --global user.email collinbarrett@users.noreply.github.com`
 
 via [git Docs](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup#_your_identity)
+
+### Authenticate
+
+#### Credential Helper - Store
+
+cmd:
+ - `git config --global credential.helper store`
