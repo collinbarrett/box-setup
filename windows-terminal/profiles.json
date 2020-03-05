@@ -1,6 +1,9 @@
 // To view the default settings, hold "alt" while clicking on the "Settings" button.
 // For documentation on these settings, see: https://aka.ms/terminal-documentation
 
+// Customize:
+//  - startingDirectory: to most commonly interacted with directory
+
 // Hidden:
 //  - MinGW-w64: Hoping to not use Git for Windows or its shell at all in favor of git in WSL.
 //  - Azure Cloud Shell: since I do not use it at all currently, but it is added by default.
@@ -13,7 +16,9 @@
   "profiles": {
     "defaults": {
       "fontFace": "Fira Code Retina",
-      "hidden": false
+      "fontSize": 10,
+      "hidden": false,
+      "startingDirectory": "C:/src"
     },
     "list": [
       {
