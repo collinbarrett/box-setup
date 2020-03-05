@@ -1,65 +1,47 @@
-
 // To view the default settings, hold "alt" while clicking on the "Settings" button.
 // For documentation on these settings, see: https://aka.ms/terminal-documentation
 
 {
-    "$schema": "https://aka.ms/terminal-profiles-schema",
+  "$schema": "https://aka.ms/terminal-profiles-schema",
 
-    "defaultProfile": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+  "defaultProfile": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
 
-    "profiles":
-    {
-        "defaults":
-        {
-            
-        },
-        "list":
-        [
-            {
-                "fontFace": "JetBrains Mono",
-                "fontSize": 13,
-                "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
-                "hidden": false,
-                "name": "Ubuntu-18.04",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "commandline": "\"%PROGRAMFILES%\\Git\\bin\\bash.exe\" -i -l",
-                "fontFace": "JetBrains Mono",
-                "fontSize": 13,
-                "guid": "{4a745997-9220-4b9c-9fac-c18e93b46ab2}",
-                "hidden": false,
-                "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
-                "name": "MinGW-w64"
-            },
-            {
-                "fontFace": "JetBrains Mono",
-                "fontSize": 13,
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "hidden": false,
-                "name": "Windows PowerShell",
-                "commandline": "powershell.exe"
-            },
-            {
-                "fontFace": "JetBrains Mono",
-                "fontSize": 13,
-                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "hidden": false,
-                "name": "cmd",
-                "commandline": "cmd.exe"
-            },
-            {
-                "fontFace": "JetBrains Mono",
-                "fontSize": 13,
-                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "hidden": false,
-                "name": "Azure Cloud Shell",
-                "source": "Windows.Terminal.Azure"
-            }
-        ]
+  "profiles": {
+    "defaults": {
+      "fontFace": "Fira Code Retina",
+      "hidden": false
     },
+    "list": [
+      {
+        "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+        "name": "Ubuntu-18.04",
+        "source": "Windows.Terminal.Wsl"
+      },
+      {
+        "commandline": "\"%PROGRAMFILES%\\Git\\bin\\bash.exe\" -i -l",
+        "guid": "{4a745997-9220-4b9c-9fac-c18e93b46ab2}",
+        "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+        "name": "MinGW-w64"
+      },
+      {
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+        "name": "Windows PowerShell",
+        "commandline": "powershell.exe"
+      },
+      {
+        "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+        "name": "cmd",
+        "commandline": "cmd.exe"
+      },
+      {
+        "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+        "name": "Azure Cloud Shell",
+        "source": "Windows.Terminal.Azure"
+      }
+    ]
+  },
 
-    "schemes": [],
+  "schemes": [],
 
-    "keybindings": []
+  "keybindings": []
 }
