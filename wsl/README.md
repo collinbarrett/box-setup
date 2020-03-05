@@ -19,7 +19,14 @@ via MS Docs: [Download](https://docs.microsoft.com/en-us/windows/wsl/install-man
 
 ## Initialize Ubuntu 18.04 distro
 
- 1. Open Ubuntu 18.04 from the Windows Start Menu.
- 2. After installation completes, follow the prompts to create a username and password.
+Windows Start Menu -> Ubuntu 18.04:
+ - After installation completes, follow the prompts to create a username and password.
 
 via [MS Docs](https://docs.microsoft.com/en-us/windows/wsl/initialize-distro)
+
+## Upgrade
+
+Windows Start Menu -> Ubuntu 18.04:
+ - `sudo bash -c 'for i in update {,dist-}upgrade auto{remove,clean}; do apt-get $i -y; done'`
+ 
+ via [Ask Ubuntu](https://askubuntu.com/a/846968)
