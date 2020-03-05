@@ -21,7 +21,7 @@ For current repo only:
  3. `git config user.name "Collin M. Barrett"`
  4. `git config user.email collinbarrett@users.noreply.github.com`
 
-Or, globally:
+Globally:
 
  1. Open a cmd prompt.
  2. `git config --global user.name "Collin M. Barrett"`
