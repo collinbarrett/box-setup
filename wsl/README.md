@@ -24,6 +24,19 @@ Windows Start Menu -> Ubuntu 18.04:
 
 via [MS Docs](https://docs.microsoft.com/en-us/windows/wsl/initialize-distro)
 
+## Packages
+
+### git
+
+Windows Start Menu -> Ubuntu 18.04:
+ - `sudo add-apt-repository -y ppa:git-core/ppa`
+
+### Node
+
+Windows Start Menu -> Ubuntu 18.04:
+ - `curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -`
+ - `sudo apt-get install -y nodejs`
+
 ## Upgrade
 
 Windows Start Menu -> Ubuntu 18.04:
