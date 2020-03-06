@@ -34,14 +34,13 @@ Windows Start Menu -> Ubuntu 18.04:
 ### Node
 
 Windows Start Menu -> Ubuntu 18.04:
- - `curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -`
- - `sudo apt-get install -y nodejs`
+ 1. `curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -`
+ 2. `sudo apt-get install -y nodejs`
 
 ## Upgrade
 
 Windows Start Menu -> Ubuntu 18.04:
- 1. `sudo add-apt-repository -y ppa:git-core/ppa`
- 2. `sudo bash -c 'for i in update {,dist-}upgrade auto{remove,clean}; do apt-get $i -y; done'`
+ - `sudo bash -c 'for i in update {,dist-}upgrade auto{remove,clean}; do apt-get $i -y; done'`
  
  via [Ask Ubuntu](https://askubuntu.com/a/846968)
  
