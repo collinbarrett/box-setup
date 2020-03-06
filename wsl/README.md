@@ -31,7 +31,7 @@ via [MS Docs](https://docs.microsoft.com/en-us/windows/wsl/initialize-distro)
 Windows Start Menu -> Ubuntu 18.04:
  - `sudo add-apt-repository -y ppa:git-core/ppa`
 
-### Node
+### Node.js
 
 Windows Start Menu -> Ubuntu 18.04:
  1. `curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -`
