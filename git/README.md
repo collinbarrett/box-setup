@@ -25,11 +25,14 @@ cmd:
 
 via [git Docs](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup#_your_identity)
 
-### Authenticate
+### Editor
 
-#### Credential Helper - Store
+cmd:
+ - `git config --global core.editor vim`
 
-Not the most secure, but is convenient for now. Once enabled, on first push to any remote, a password is required and then stored permanently in plain text at `~/.git-credentials`.
+### Credential Helper - Store
+
+_Insecure._ Once enabled, on first push to any remote, a password is required and then stored permanently in plain text at `~/.git-credentials`.
 
 cmd:
  - `git config --global credential.helper store`
