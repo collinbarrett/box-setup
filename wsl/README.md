@@ -24,7 +24,7 @@ Windows Start Menu -> Ubuntu 18.04:
 
 via [MS Docs](https://docs.microsoft.com/en-us/windows/wsl/initialize-distro)
 
-## Packages
+## Install Packages
 
 ### git
 
