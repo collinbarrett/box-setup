@@ -29,5 +29,7 @@ via [git Docs](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Set
 
 #### Credential Helper - Store
 
+Not the most secure, but is convenient for now. Once enabled, on first push to any remote, a password is required and then stored permanently in plain text at `~/.git-credentials`.
+
 cmd:
  - `git config --global credential.helper store`
