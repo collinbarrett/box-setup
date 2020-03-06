@@ -37,6 +37,8 @@ Windows Start Menu -> Ubuntu 18.04:
  1. `curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -`
  2. `sudo apt-get install -y nodejs`
 
+via [nodesource](https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions)
+
 ## Upgrade
 
 Windows Start Menu -> Ubuntu 18.04:
