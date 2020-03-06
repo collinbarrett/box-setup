@@ -30,3 +30,7 @@ Windows Start Menu -> Ubuntu 18.04:
  - `sudo bash -c 'for i in update {,dist-}upgrade auto{remove,clean}; do apt-get $i -y; done'`
  
  via [Ask Ubuntu](https://askubuntu.com/a/846968)
+ 
+ ## Enable Unattended Upgrades
+
+ -TBD
