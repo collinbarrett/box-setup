@@ -1,6 +1,6 @@
 # box-setup
 
-A set of instructions and scripts to automate the setup of a new computer
+A set of instructions and scripts to semi-automate the setup of a new Windows developer machine
 
 Inspired by [gpspake/dotfiles](https://github.com/gpspake/dotfiles)
 
