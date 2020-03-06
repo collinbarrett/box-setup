@@ -27,7 +27,8 @@ via [MS Docs](https://docs.microsoft.com/en-us/windows/wsl/initialize-distro)
 ## Upgrade
 
 Windows Start Menu -> Ubuntu 18.04:
- - `sudo bash -c 'for i in update {,dist-}upgrade auto{remove,clean}; do apt-get $i -y; done'`
+ 1. `sudo add-apt-repository -y ppa:git-core/ppa`
+ 2. `sudo bash -c 'for i in update {,dist-}upgrade auto{remove,clean}; do apt-get $i -y; done'`
  
  via [Ask Ubuntu](https://askubuntu.com/a/846968)
  
