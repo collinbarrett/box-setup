@@ -8,9 +8,9 @@ Inspired by [gpspake/dotfiles](https://github.com/gpspake/dotfiles)
 
 Best executed in order. See README in each directory.
 
- 1. [windows](https://github.com/collinbarrett/box-setup/tree/master/windows)
- 2. [wsl](https://github.com/collinbarrett/box-setup/tree/master/wsl)
- 3. [git](https://github.com/collinbarrett/box-setup/tree/master/git)
+ 1. [wsl](https://github.com/collinbarrett/box-setup/tree/master/wsl)
+ 2. [git](https://github.com/collinbarrett/box-setup/tree/master/git)
+ 3. [windows](https://github.com/collinbarrett/box-setup/tree/master/windows)
  4. [choco](https://github.com/collinbarrett/box-setup/tree/master/choco)
  5. windowsspyblocker (TBD)
  6. shutup10 (TBD)
