@@ -35,9 +35,16 @@ Windows Start Menu -> Ubuntu 18.04:
 
 Windows Start Menu -> Ubuntu 18.04:
  1. `curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -`
- 2. `sudo apt-get install -y nodejs`
+ 2. `sudo apt install -y nodejs`
 
 via [nodesource](https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions)
+
+### Powerline Fonts
+
+Windows Start Menu -> Ubuntu 18.04:
+ - `sudo apt install fonts-powerline`
+
+via [Powerline Fonts README](https://github.com/powerline/fonts#quick-installation)
 
 ## Upgrade
 
