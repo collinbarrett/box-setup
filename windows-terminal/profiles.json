@@ -11,7 +11,7 @@
 
   "profiles": {
     "defaults": {
-      "fontFace": "Fira Code NF Light",
+      "fontFace": "Cascadia Code PL",
       "fontSize": 10,
       "hidden": false,
       "startingDirectory": "C:/src"
