@@ -12,3 +12,4 @@ See README in each directory.
  2. [git](https://github.com/collinbarrett/box-setup/tree/master/git)
  3. [choco](https://github.com/collinbarrett/box-setup/tree/master/choco)
  4. [windows-terminal](https://github.com/collinbarrett/box-setup/tree/master/windows-terminal)
+ 5. [zsh](https://github.com/collinbarrett/box-setup/tree/master/zsh)
