@@ -15,6 +15,9 @@ Ubuntu-18.04:
 ## Install
 
 Ubuntu-18.04:
- - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+ 1. Customize path to `box-setup` in `box-setup/zsh/setup.sh`.
+ 2. Customize path to Windows home directory in `box-setup/zsh/plugins/cbarrett-wsl.plugin.zsh`
+ 3. `/mnt/c/Users/collin.barrett/source/repos/box-setup/zsh/setup.sh` (customize path to `box-setup/zsh/setup.sh`)
+ 4. Add `cbarrett-wsl` to `plugins()` collection in `~/.zshrc`
  
-via [Oh My Zsh Wiki](https://github.com/ohmyzsh/ohmyzsh#via-curl)
+via [gpspake/dotfiles](https://github.com/gpspake/dotfiles)
