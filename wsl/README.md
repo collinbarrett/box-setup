@@ -49,8 +49,12 @@ Start Menu -> Ubuntu 18.04:
     %sudo ALL=NOPASSWD:/usr/bin/apt-get
     ```
 
+Browser:
+ - Download a copy of [`Task-UpgradeWsl.xml`](https://github.com/collinbarrett/box-setup/blob/master/wsl/Task-UpgradeWsl.xml) (if `box-setup` not yet cloned).
+
 cmd (Administrator):
- 1. `cd` to [`box-setup\wsl`](https://github.com/collinbarrett/box-setup/tree/master/wsl)
+ 
+ 1. `cd` to location of `Task-UpgradeWsl.xml`.
  2. `schtasks /create /xml Task-UpgradeWsl.xml /tn UpgradeWsl`
 
 via [RioSec](http://www.riosec.com/articles/automatingupdatesforbashonubuntuonwindows10)
