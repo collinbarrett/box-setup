@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<Task xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task" version="1.6">
+   <RegistrationInfo>
+      <Description>Automatically upgrade WSL daily via bash.exe</Description>
+      <URI>\UpgradeWsl</URI>
+   </RegistrationInfo>
+   <Triggers>
+      <CalendarTrigger>
+         <StartBoundary>2020-03-06T08:00:00-06:00</StartBoundary>
+         <Enabled>true</Enabled>
+         <ScheduleByDay>
+            <DaysInterval>1</DaysInterval>
+         </ScheduleByDay>
+      </CalendarTrigger>
+   </Triggers>
+   <Settings>
+      <MultipleInstancesPolicy>IgnoreNew</MultipleInstancesPolicy>
+      <DisallowStartIfOnBatteries>true</DisallowStartIfOnBatteries>
+      <StopIfGoingOnBatteries>false</StopIfGoingOnBatteries>
+      <AllowHardTerminate>false</AllowHardTerminate>
+      <StartWhenAvailable>true</StartWhenAvailable>
+      <RunOnlyIfNetworkAvailable>true</RunOnlyIfNetworkAvailable>
+      <IdleSettings>
+         <StopOnIdleEnd>false</StopOnIdleEnd>
+         <RestartOnIdle>false</RestartOnIdle>
+      </IdleSettings>
+      <AllowStartOnDemand>true</AllowStartOnDemand>
+      <Enabled>true</Enabled>
+      <Hidden>false</Hidden>
+      <RunOnlyIfIdle>false</RunOnlyIfIdle>
+      <DisallowStartOnRemoteAppSession>false</DisallowStartOnRemoteAppSession>
+      <UseUnifiedSchedulingEngine>true</UseUnifiedSchedulingEngine>
+      <WakeToRun>false</WakeToRun>
+      <ExecutionTimeLimit>PT4H</ExecutionTimeLimit>
+      <Priority>7</Priority>
+   </Settings>
+   <Actions Context="Author">
+      <Exec>
+         <Command>%windir%\System32\bash.exe</Command>
+         <Arguments>-c "sudo apt-get update &amp;&amp; sudo apt-get upgrade -y &amp;&amp; sudo apt-get dist-upgrade -y &amp;&amp; sudo apt-get autoremove -y &amp;&amp; sudo apt-get autoclean -y"</Arguments>
+      </Exec>
+   </Actions>
+</Task>
