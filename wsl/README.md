@@ -39,13 +39,6 @@ Windows Start Menu -> Ubuntu 18.04:
 
 via [nodesource](https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions)
 
-### Powerline Fonts
-
-Windows Start Menu -> Ubuntu 18.04:
- - `sudo apt install fonts-powerline`
-
-via [Powerline Fonts README](https://github.com/powerline/fonts#quick-installation)
-
 ## Upgrade
 
 Windows Start Menu -> Ubuntu 18.04:
