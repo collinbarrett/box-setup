@@ -11,7 +11,7 @@
 
   "profiles": {
     "defaults": {
-      "fontFace": "Fira Code Retina",
+      "fontFace": "Fira Code NF Light",
       "fontSize": 10,
       "hidden": false,
       "startingDirectory": "C:/src"
