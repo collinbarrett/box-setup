@@ -14,3 +14,10 @@ cmd (Administrator):
  2. `choco install packages.config -y`
  
  via [Chocolatey Docs](https://chocolatey.org/docs/commandsinstall)
+
+## Configure Choco Maintenance
+
+Task Scheduler:
+ - Adjust trigger time for `choco-cleaner` task to run while computer is likely awake.
+ 
+ [Related GitHub Issue](https://github.com/bcurran3/ChocolateyPackages/issues/151)
