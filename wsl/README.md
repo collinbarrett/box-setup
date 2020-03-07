@@ -19,7 +19,7 @@ via MS Docs: [Download](https://docs.microsoft.com/en-us/windows/wsl/install-man
 
 ## Initialize Ubuntu 18.04 distro
 
-Windows Start Menu -> Ubuntu 18.04:
+Start Menu -> Ubuntu 18.04:
  - After installation completes, follow the prompts to create a username and password.
 
 via [MS Docs](https://docs.microsoft.com/en-us/windows/wsl/initialize-distro)
@@ -28,12 +28,12 @@ via [MS Docs](https://docs.microsoft.com/en-us/windows/wsl/initialize-distro)
 
 ### git
 
-Windows Start Menu -> Ubuntu 18.04:
+Start Menu -> Ubuntu 18.04:
  - `sudo add-apt-repository -y ppa:git-core/ppa`
 
 ### Node.js
 
-Windows Start Menu -> Ubuntu 18.04:
+Start Menu -> Ubuntu 18.04:
  1. `curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -`
  2. `sudo apt install -y nodejs`
 
@@ -41,14 +41,14 @@ via [nodesource](https://github.com/nodesource/distributions/blob/master/README.
 
 ## Upgrade
 
-Windows Start Menu -> Ubuntu 18.04:
+Start Menu -> Ubuntu 18.04:
  - `sudo bash -c 'for i in update {,dist-}upgrade auto{remove,clean}; do apt-get $i -y; done'`
  
  via [Ask Ubuntu](https://askubuntu.com/a/846968)
  
 ## Enable Unattended Upgrades
 
-Windows Start Menu -> Ubuntu 18.04:
+Start Menu -> Ubuntu 18.04:
  1. sudo visudo
  2. Add the following to the end of the file and save.
 
