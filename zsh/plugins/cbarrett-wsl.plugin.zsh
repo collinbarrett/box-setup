@@ -1,5 +1,6 @@
 # CUSTOMIZE path to Windows home directory
-export WINDOWS_HOME_DIRECTORY="/mnt/c/Users/collin.barrett"
+export WINDOWS_HOME_DIRECTORY="/mnt/c/Users/admin"
+#export WINDOWS_HOME_DIRECTORY="/mnt/c/Users/collin.barrett"
 
 # theme that uses powerline glyphs from Cascadia Code PL
 ZSH_THEME="agnoster"
