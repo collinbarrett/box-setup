@@ -23,6 +23,12 @@
         "source": "Windows.Terminal.Wsl"
       },
       {
+        "commandline": "\"%PROGRAMFILES%\\Git\\bin\\bash.exe\" -i -l",
+        "guid": "{4a745997-9220-4b9c-9fac-c18e93b46ab2}",
+        "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+        "name": "MinGW-w64"
+      },
+      {
         "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
         "name": "cmd",
         "commandline": "cmd.exe"
