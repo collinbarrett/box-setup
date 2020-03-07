@@ -59,6 +59,6 @@ Windows Start Menu -> Ubuntu 18.04:
 
 cmd (Administrator):
  1. `cd` to `box-setup\wsl`
- 2. `schtasks /create /xml Task-WslUpgrades.xml /tn UpdateWsl`
+ 2. `schtasks /create /xml Task-UpgradeWsl.xml /tn UpgradeWsl`
 
 via [RioSec](http://www.riosec.com/articles/automatingupdatesforbashonubuntuonwindows10)
