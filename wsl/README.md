@@ -46,6 +46,19 @@ Windows Start Menu -> Ubuntu 18.04:
  
  via [Ask Ubuntu](https://askubuntu.com/a/846968)
  
- ## Enable Unattended Upgrades
+## Enable Unattended Upgrades
 
- -TBD
+Windows Start Menu -> Ubuntu 18.04:
+ 1. sudo visudo
+ 2. Add the following to the end of the file and save.
+
+    ```
+    # Allow members of the group sudo to execute apt-get without a password
+    %sudo ALL=NOPASSWD:/usr/bin/apt-get
+    ```
+
+cmd (Administrator):
+ 1. `cd` to `box-setup\wsl`
+ 2. `schtasks /create /xml Task-WslUpgrades.xml /tn UpdateWsl`
+
+via [RioSec](http://www.riosec.com/articles/automatingupdatesforbashonubuntuonwindows10)
