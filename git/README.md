@@ -13,7 +13,7 @@ Start Menu -> Ubuntu 18.04:
 #### Current Repo Only:
 
 Start Menu -> Ubuntu 18.04:
- 1. `cd` into repo directory.
+ 1. `cd` into [`box-setup`](https://github.com/collinbarrett/box-setup).
  2. `git config user.name "Collin M. Barrett"`
  3. `git config user.email collinbarrett@users.noreply.github.com`
 

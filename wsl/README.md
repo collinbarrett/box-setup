@@ -50,7 +50,7 @@ Start Menu -> Ubuntu 18.04:
     ```
 
 cmd (Administrator):
- 1. `cd` to `box-setup\wsl`
+ 1. `cd` to [`box-setup\wsl`](https://github.com/collinbarrett/box-setup/tree/master/wsl)
  2. `schtasks /create /xml Task-UpgradeWsl.xml /tn UpgradeWsl`
 
 via [RioSec](http://www.riosec.com/articles/automatingupdatesforbashonubuntuonwindows10)

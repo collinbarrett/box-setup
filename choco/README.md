@@ -10,7 +10,7 @@ cmd (Administrator):
 ## Install Packages
 
 cmd (Administrator):
- 1. `cd` to `box-setup\choco`.
+ 1. `cd` into [`box-setup\choco`](https://github.com/collinbarrett/box-setup/tree/master/choco).
  2. `choco install packages.config -y`
  
  via [Chocolatey Docs](https://chocolatey.org/docs/commandsinstall)
