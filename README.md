@@ -22,13 +22,13 @@ Best executed in order. See README in each directory.
  1. Run [WindowsSpyBlocker](https://github.com/crazy-max/WindowsSpyBlocker)
  2. Run [O&O ShutUp10](https://www.oo-software.com/en/shutup10)
  3. Connect to network
- 4. Configure [WSL](https://github.com/collinbarrett/box-setup/tree/master/wsl)
- 5. Configure [git](https://github.com/collinbarrett/box-setup/tree/master/git)
- 6. Configure [Windows](https://github.com/collinbarrett/box-setup/tree/master/windows)
+ 4. [Configure WSL](https://github.com/collinbarrett/box-setup/tree/master/wsl)
+ 5. [Configure git](https://github.com/collinbarrett/box-setup/tree/master/git)
+ 6. [Configure Windows](https://github.com/collinbarrett/box-setup/tree/master/windows)
  7. Configure [winget](https://docs.microsoft.com/en-us/windows/package-manager/winget/) and install apps
  8. Configure BleachBit
- 9. Configure [windows-terminal](https://github.com/collinbarrett/box-setup/tree/master/windows-terminal)
- 10. Configure [zsh](https://github.com/collinbarrett/box-setup/tree/master/zsh)
+ 9. [Configure windows-terminal](https://github.com/collinbarrett/box-setup/tree/master/windows-terminal)
+ 10. [Configure zsh](https://github.com/collinbarrett/box-setup/tree/master/zsh)
  11. Configure Firefox
  12. Configure Visual Studio Code
  13. Configure Visual Studio
