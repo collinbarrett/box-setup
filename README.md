@@ -18,10 +18,10 @@ Best executed in order. See README in each directory.
 
 ## Configuration
 
- 0. Do not connect to WiFi yet
+ 0. Do not connect to network yet
  1. Run [WindowsSpyBlocker](https://github.com/crazy-max/WindowsSpyBlocker)
  2. Run [O&O ShutUp10](https://www.oo-software.com/en/shutup10)
- 3. Connect to WiFi
+ 3. Connect to network
  4. Configure [WSL](https://github.com/collinbarrett/box-setup/tree/master/wsl)
  5. Configure [git](https://github.com/collinbarrett/box-setup/tree/master/git)
  6. Configure [Windows](https://github.com/collinbarrett/box-setup/tree/master/windows)
