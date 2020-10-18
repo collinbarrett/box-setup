@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 
 # CUSTOMIZE path to box-setup
-BOX_SETUP_DIRECTORY="/mnt/c/src-git/box-setup"
-#BOX_SETUP_DIRECTORY="/mnt/c/Users/collin.barrett/source/repos/box-setup"
+BOX_SETUP_DIRECTORY="/mnt/c/Users/admin/source/repos/box-setup"
 
 # install Oh My Zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

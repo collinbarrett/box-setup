@@ -2,14 +2,14 @@
 
 ## Install
 
-Ubuntu-18.04:
+Ubuntu:
  - `sudo apt install zsh`
 
 # Oh My Zsh
 
 ## Install
 
-Ubuntu-18.04:
+Ubuntu:
  1. Customize path to `box-setup` in [`box-setup/zsh/setup.sh`](https://github.com/collinbarrett/box-setup/blob/master/zsh/setup.sh).
  2. Customize path to Windows home directory in [`box-setup/zsh/plugins/cbarrett-wsl.plugin.zsh`](https://github.com/collinbarrett/box-setup/blob/master/zsh/plugins/cbarrett-wsl.plugin.zsh).
  3. `chmod +x box-setup/zsh/setup.sh`
