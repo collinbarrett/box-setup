@@ -19,16 +19,16 @@ Best executed in order. See README in each directory.
 ## Configuration
 
  0. Do not connect to WiFi yet
- 1. windowsspyblocker (TBD)
- 2. shutup10 (TBD)
+ 1. Run [WindowsSpyBlocker](https://github.com/crazy-max/WindowsSpyBlocker)
+ 2. Run [O&O ShutUp10](https://www.oo-software.com/en/shutup10)
  3. Connect to WiFi
- 4. [wsl](https://github.com/collinbarrett/box-setup/tree/master/wsl)
- 5. [git](https://github.com/collinbarrett/box-setup/tree/master/git)
- 6. [windows](https://github.com/collinbarrett/box-setup/tree/master/windows)
- 7. winget (TBD)
- 8. Bleachbit (TBD)
- 9. [windows-terminal](https://github.com/collinbarrett/box-setup/tree/master/windows-terminal)
- 10. [zsh](https://github.com/collinbarrett/box-setup/tree/master/zsh)
- 11. Firefox (TBD)
- 12. Visual Studio Code (TBD)
- 13. Visual Studio (TBD)
+ 4. Configure [WSL](https://github.com/collinbarrett/box-setup/tree/master/wsl)
+ 5. Configure [git](https://github.com/collinbarrett/box-setup/tree/master/git)
+ 6. Configure [Windows](https://github.com/collinbarrett/box-setup/tree/master/windows)
+ 7. Configure [winget](https://docs.microsoft.com/en-us/windows/package-manager/winget/) and install apps
+ 8. Configure BleachBit
+ 9. Configure [windows-terminal](https://github.com/collinbarrett/box-setup/tree/master/windows-terminal)
+ 10. Configure [zsh](https://github.com/collinbarrett/box-setup/tree/master/zsh)
+ 11. Configure Firefox
+ 12. Configure Visual Studio Code
+ 13. Configure Visual Studio
