@@ -26,7 +26,7 @@ Best executed in order. See README in each directory.
  5. [Configure git](https://github.com/collinbarrett/box-setup/tree/master/git)
  6. [Configure Windows](https://github.com/collinbarrett/box-setup/tree/master/windows)
  7. Configure [winget](https://docs.microsoft.com/en-us/windows/package-manager/winget/) and install apps
- 8. Configure BleachBit
+ 8. [Configure BleachBit](https://github.com/collinbarrett/box-setup/tree/master/bleachbit)
  9. [Configure windows-terminal](https://github.com/collinbarrett/box-setup/tree/master/windows-terminal)
  10. [Configure zsh](https://github.com/collinbarrett/box-setup/tree/master/zsh)
  11. Configure Firefox
