@@ -19,16 +19,17 @@ Best executed in order. See README in each directory.
 ## Configuration
 
  0. Do not connect to network yet
- 1. Run [WindowsSpyBlocker](https://github.com/crazy-max/WindowsSpyBlocker)
- 2. Run [O&O ShutUp10](https://www.oo-software.com/en/shutup10)
- 3. Connect to network
- 4. [Configure WSL](https://github.com/collinbarrett/box-setup/tree/master/wsl)
- 5. [Configure git](https://github.com/collinbarrett/box-setup/tree/master/git)
- 6. [Configure Windows](https://github.com/collinbarrett/box-setup/tree/master/windows)
- 7. Configure [winget](https://docs.microsoft.com/en-us/windows/package-manager/winget/) and install apps
- 8. [Configure BleachBit](https://github.com/collinbarrett/box-setup/tree/master/bleachbit)
- 9. [Configure windows-terminal](https://github.com/collinbarrett/box-setup/tree/master/windows-terminal)
- 10. [Configure zsh](https://github.com/collinbarrett/box-setup/tree/master/zsh)
- 11. Configure Firefox
- 12. Configure Visual Studio Code
- 13. Configure Visual Studio
+ 1. Enable BitLocker
+ 2. Run [WindowsSpyBlocker](https://github.com/crazy-max/WindowsSpyBlocker)
+ 3. Run [O&O ShutUp10](https://www.oo-software.com/en/shutup10)
+ 4. Connect to network
+ 5. [Configure WSL](https://github.com/collinbarrett/box-setup/tree/master/wsl)
+ 6. [Configure git](https://github.com/collinbarrett/box-setup/tree/master/git)
+ 7. [Configure Windows](https://github.com/collinbarrett/box-setup/tree/master/windows)
+ 8. Configure [winget](https://docs.microsoft.com/en-us/windows/package-manager/winget/) and install apps
+ 9. [Configure BleachBit](https://github.com/collinbarrett/box-setup/tree/master/bleachbit)
+ 10. [Configure windows-terminal](https://github.com/collinbarrett/box-setup/tree/master/windows-terminal)
+ 11. [Configure zsh](https://github.com/collinbarrett/box-setup/tree/master/zsh)
+ 12. Configure Firefox
+ 13. Configure Visual Studio Code
+ 14. Configure Visual Studio
