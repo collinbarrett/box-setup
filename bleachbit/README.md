@@ -6,6 +6,7 @@ Start Menu -> BleachBit:
  1. Select all except:
     - Firefox -> Passwords (signs out of Firefox Account)
     - System -> Free disk space (wear and tear on drive)
+    - System -> Temporary files (breaks searching start menu for apps)
     - Windows Explorer -> Recent documents list (preserve pinned Quick Access)
  2. Run "Clean"
 
