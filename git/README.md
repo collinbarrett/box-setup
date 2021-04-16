@@ -36,4 +36,4 @@ Start Menu -> Ubuntu:
 (depends on `alias`es in `.gitconfig` and ohmyzsh git plugin)
 
  - Refresh all repos in current directory: `git all refresh`
- - Rebase current feature branch on `origin/master`: `ggsup && git resync`
+ - Rebase current feature branch on `origin/master`: `git resync`
