@@ -32,7 +32,8 @@ _Insecure._ Once enabled, on first push to any remote, a password is required an
 Start Menu -> Ubuntu:
  - `git config --global credential.helper store`
 
-## Cheat Sheet (depends on `alias`es in `.gitconfig` and ohmyzsh git plugin)
+## Cheat Sheet
+(depends on `alias`es in `.gitconfig` and ohmyzsh git plugin)
 
  - Refresh all repos in current directory: `git all refresh`
  - Rebase current feature branch on `origin/master`: `ggsup && git resync`
