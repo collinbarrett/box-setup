@@ -1,0 +1,5 @@
+[alias]
+        allparallel = "!f() { ls | xargs -P10 -I{} git -C {} $1; }; f" #has concurrency issues with credential helper store
+        all = "!f() { ls | xargs -I{} git -C {} $1; }; f"
+        refresh = "!git checkout . && git clean -fdx && git checkout master && git pull && git prune"
+        resync = "echo ggsup; !git fetch origin && git rebase origin/master && git push -f --set-upstream origin \"$(git rev-parse --abbrev-ref HEAD)\""
