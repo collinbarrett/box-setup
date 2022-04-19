@@ -19,6 +19,8 @@ Start Menu -> Ubuntu:
 2.  `git config user.name "Collin M. Barrett"`
 3.  `git config user.email collinbarrett@users.noreply.github.com`
 
+TODO: path-based git user config for work/personal repos: https://stackoverflow.com/a/43884702/2343739
+
 #### Globally:
 
 Start Menu -> Ubuntu:
